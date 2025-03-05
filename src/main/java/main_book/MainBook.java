@@ -42,7 +42,7 @@ public class MainBook {
         System.out.println(now.toString());
         Formatter formatter=new Formatter();
         formatter.format("Hi your name is ½s, your tc is %d, price is %f","Yunus",514544564,55.25);
-        System.out.println(formatter);
+        System.out.println(formatter);//or you can use printf
         formatter.close();//we are close objects for let free cache
         throw new NullPointerException("boş değer");//oluşturulan hatayı fırlatma
     }
